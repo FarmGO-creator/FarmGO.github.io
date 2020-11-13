@@ -1,0 +1,143 @@
+@media only screen and (max-width: 667px) {
+	.flex-countainer {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.Section-right__MAIN-SHOP {
+		padding: 25px 0;
+	}
+	.Section-right__MAIN {
+		width: 100%;
+	}
+	.Section-left__MAIN {
+		flex-wrap: wrap;
+	}
+	.tab-content {
+		font-size: 14px;
+	}
+	.Content-tape h2 {
+		font-size: 25px;
+	}
+	.Content-right__MINE button {
+		margin: 10px 5%;
+	}
+	.Content-right__MINE h1 {
+		font-size: 25px;
+	}
+	.Content-tape h2 {
+		font-size: 15px;
+	}
+	.content-MEIN_2 h2 {
+		font-size: 20px;
+	}
+	.content-MEIN_2 li {
+		font-size: 1em;
+	}
+	.content-footer {
+		width: 100%;
+	}
+	.topnav a {
+		font-size: 16px;
+	}
+	.fa.icon8 {font-size: 0;}
+	.fa.icon3 {font-size: 0;}
+	.Content-right__NAV {
+		display: none;
+	}
+	.Content-left__NAV a {
+		padding: 10px;
+		display: block;
+	}
+	.b {
+		display: none;
+	}
+	.tabs {
+		width: 100%;
+	}
+	.content_tab {
+		flex-wrap: wrap;
+	}
+	.Content-tape h2 {
+		font-size: 12px;
+	}
+	.Content-lists li {
+		font-size: 12px;
+	}
+	.Content-left__NAV h2 {
+		font-size: 20px;
+	}
+	.Section-left__MAIN img {
+		width: 300px;
+		height: 300px;
+	}
+	.blac-bar h1 {
+		font-size: 100px;
+	}
+	.Header_Section_2 img {
+		width: 350px;
+		height: 350px;
+	}
+	.swiper-container {
+		width: 200px;
+		height: 200px;
+	}
+	.swiper-slide img {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+
+@media only screen and (max-width: 1160px) {
+	.flex-countainer {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.Section-right__MAIN {
+		width: 100%;
+	}
+	.Section-left__MAIN {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.Section-left__MAIN-SHOP {
+		width: 100%;
+	}
+	.Section-right__MAIN-SHOP {
+		margin-top: 50px;
+		width: 100%;
+	}
+	.Section__dom {
+		width: 100%;
+	}
+	.Section__drive {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.Section__online {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.Section__game {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	.Section-left__MEIN_2 {
+		width: 100%;
+	}
+	.Section-right__MEIN_2 {
+		width: 100%;
+		margin-top: 50px;
+	}
+	.fa.icon4 {font-size: 0;}
+	.fa.icon2 {font-size: 0;}
+
+	.Content-right__MINE p {
+		font-size: 20px;
+	}
+	.slide {
+		background-size: cover;
+		background-position: center;
+	}
+}

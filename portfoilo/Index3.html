@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style3.css">
+	<link rel="stylesheet" href="adaption.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<title>Проект3</title>
+</head>
+<body>
+	<header>
+		<div class="blacBar">
+			<div class="fixed">
+				<div class="flex">
+					<div class="blocLeft">
+						<a href="#Yslug">Услуги</a>
+						<a href="#Port">Портфолио</a>
+						<a href="#Cheik">Стоимость</a>
+					</div>
+					<div class="blocRight">
+						<div class="link"><a href="#">0(700)-55-44-33</a></div>
+						<div class="button"><button>Заказать звонок</button></div>
+					</div>
+				</div>
+				<div class="portofoilo">
+					<div class="flex">
+						<div class="sectionPort">
+							<h1>Полушин Дмитрий</h1>
+							<p>Frontend Разаработчик и веб-верстальщик</p>
+							<div class="button2"><button>Узнать больше</button></div>
+						</div>
+						<div class="sectionArt">
+							<div class="bacFon"><img src="IMG/art.png"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="centerBloc">
+			<div class="servicesBloc" id="Yslug">
+				<div class="fixed">
+					<h3>Что я делаю</h3>
+					<div class="contentBloc">
+						<div class="sectionSer1">
+							<img src="IMG/ver1.png">
+							<p>Вёрстка лендинг–страниц
+							и сайтов любой сложности</p>
+						</div>
+						<div class="sectionSer2">
+							<img src="IMG/ver2.png">
+							<p>Адаптивная вёрстка под все
+							браузеры и устройства</p>
+						</div>
+						<div class="sectionSer3">
+							<img src="IMG/ver3.png" alt="">
+							<p>Frontend–разработка<br>
+							и программирование</p>
+						</div>
+						<div class="sectionSer4">
+							<img src="IMG/ver4.png" alt="">
+							<p>Вёрстка лендинг–страниц
+							и сайтов любой сложности</p>
+						</div>
+					</div>
+					<div class="button3"><button>Узнать стоимость</button></div>
+				</div>
+			</div>
+			<div class="blocSlider" id="Port">
+				<div class="fixed">
+					<h3>Примеры моих работ</h3>
+					<div class="centerSlider">
+						<div class="swiper-container">
+						    <div class="swiper-wrapper">
+						      <div class="swiper-slide"><a href="Proect2/Proect.html"><img src="IMG/News.png"><p>Сайт про новостное агенство</p></a></div>
+						      <div class="swiper-slide"><a href="Proect/index.html"><img src="IMG/VIV.png"><p>VIV создан для дополнения проектов</p></a></div>
+						      <div class="swiper-slide"><a href="#"><img src="IMG/Rabot3.png"><p>В дальнейшем будущем</p></a></div>
+						    </div>
+						    <!-- Add Arrows -->
+						    <div class="swiper-button-next"></div>
+						    <div class="swiper-button-prev"></div>
+						</div>
+					</div>
+					<div class="button4"><button>Заказать проект</button></div>
+				</div>
+			</div>
+			<div class="blockPrice" id="Cheik">
+				<div class="contentPr">
+					<h2>Адаптивная вёрстка под все устройства<br>
+					и браузеры от 1000 рублей всего за 4 часа.*</h2>
+					<p>*Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально,<br>
+					в зависимости от сложности задач.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="linkFot">
+			<div class="fixed">
+				<div class="contentLinFoot">
+					<div class="flex">
+						<div class="blocLinFot1">
+							<ul>
+								<li>Услуги</li>
+								<li>Портфолио</li>
+								<li>Стоимость</li>
+							</ul>
+						</div>
+						<div class="blocLinFot2">
+							<ul>
+								<li><i class="fa fa-phone" aria-hidden="true"></i>&emsp;0(700)-55-55-24</li><br>
+								<li><i class="fa fa-envelope" aria-hidden="true"></i>&emsp;DimaPolushin@mail.ru</li>
+							</ul>
+						</div>
+						<div class="blocLinFot3">
+							<div class="button5"><button>Заказать звонок</button></div>
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<i class="fa fa-vk" aria-hidden="true"></i>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="blocLinFot4">© Полушин Дмитрий, 2019 - 2020</div>
+		</div>
+	</footer>
+</body>
+<script src="main.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+	 var swiper = new Swiper('.swiper-container', {
+	 	slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      }
+    });
+
+	 ScrollReveal().reveal('.fixed', { delay: 500 });
+	 ScrollReveal().reveal('.blocLeft', { origin: 'left', distance: '500px', duration: 1500 });
+	 ScrollReveal().reveal('.blocRight', { origin: 'right', distance: '500px', duration: 1500 });
+	 ScrollReveal().reveal('.sectionPort', { delay: 1000, distance: '50px' });
+	 ScrollReveal().reveal('.sectionArt', { delay: 1000, distance: '50px' });
+	 ScrollReveal().reveal('.sectionSer1', { origin: 'top', distance: '200px', duration: 1500 });
+	 ScrollReveal().reveal('.sectionSer2', { origin: 'bottom', distance: '200px', duration: 1500 });
+	 ScrollReveal().reveal('.sectionSer3', { origin: 'top', distance: '200px', duration: 1500 });
+	 ScrollReveal().reveal('.sectionSer4', { origin: 'bottom', distance: '200px', duration: 1500 });
+	 ScrollReveal().reveal('.servicesBloc h3', { delay: 500, distance: '50px' });
+	 ScrollReveal().reveal('.button3 button', { delay: 500, distance: '50px' });
+	 ScrollReveal().reveal('.blocSlider h3', { delay: 500, distance: '50px' });
+	 ScrollReveal().reveal('.button4 button', { delay: 500, distance: '50px' });
+	 ScrollReveal().reveal('.blocLinFot1', { delay: 500, distance: '50px' });
+	 ScrollReveal().reveal('.blocLinFot2', { delay: 1000, distance: '50px' });
+	 ScrollReveal().reveal('.blocLinFot3', { delay: 1500, distance: '50px' });
+	 ScrollReveal().reveal('.contentPr', { delay: 500, distance: '50px' });
+</script>
+</html>

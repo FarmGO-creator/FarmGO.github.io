@@ -1,0 +1,133 @@
+.toggle {
+		position: relative;
+		background-image: url(IMG/menu.png);
+		background-repeat: no-repeat;
+		background-size: 30px;
+		background-position: center;
+		width: 30px;
+		height: 30px;
+		left: 50%;
+		transition: 0.5s;
+	}
+
+	.toggle::before {
+		position: absolute;
+		content: "";
+		width: 20px;
+		height: 20px;
+		background: #000;
+		border-radius: 50%;
+		left: 120%;
+		top: 15%;
+		transition: 0.5s;
+	}
+
+	.toggle:hover::before {
+		background: #00FF00;
+	}
+
+	.toggle.active:hover::before {
+		background: red;
+	}
+
+	.toggle.active {
+		background-image: url(IMG/close.png);
+		background-repeat: no-repeat;
+		background-size: 30px;
+		background-position: center;
+		width: 30px;
+		height: 30px;
+		background-color: #000;
+	}
+
+	.BurgerMenu.active {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #000;
+		transition: 0.5s;
+		z-index: 2;
+	}
+
+	.bloced {
+		display: none;
+	}
+
+	.BurgerMenu.active .bloced {
+		display: block;
+	}
+
+	.BurMenu {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+	}
+
+	.PodMenu a {
+		position: relative;
+	    display: flex;
+	    text-decoration: none;
+	    color: #fff;
+	    font-size: 100px;
+	    padding: 20px;
+	    margin: 20px;
+	    overflow: hidden;
+	}
+
+ .PodMenu a:before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 5px;
+        height: 5px;
+        border-top: 2px solid #03e9f4;
+        border-left: 2px solid #03e9f4;
+        transition: 0.5s;
+        transition-delay: 0.5s;
+    }
+
+
+    .PodMenu a:after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        right: 0;
+        width: 5px;
+        height: 5px;
+        border-bottom: 2px solid #03e9f4;
+        border-right: 2px solid #03e9f4;
+        transition: 0.5s;
+        transition-delay: 0.5s;
+    }
+
+    .PodMenu a:hover:before {
+        width: 100%;
+        height: 100%;
+        transition-delay: 0s;
+    }
+    .PodMenu a:hover:after {
+        width: 100%;
+        height: 100%;
+        transition-delay: 0s;
+    }
+
+    .PodMenu a:hover {
+        background-color: #03e9f4;
+        transition-delay: 0.5s;
+    }
+
+    .BarMenu {
+    	background: #000;
+    	padding: 20px;
+    }
+
+@media only screen and (max-width: 667px) {
+	.PodMenu a {
+		font-size: 60px;
+	}
+}
