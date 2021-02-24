@@ -1,0 +1,18 @@
+a:hover {
+	color: #ec4646;
+}
+
+.btnMobolOk:hover {
+	color: #ec4646;
+}
+.btnSnakbar:hover {
+	color: #ec4646;
+}
+
+.blocLinFot3 button:hover {
+	background-color: rgb(100%, 100%, 100%, 0.1);
+}
+
+.close i:hover {
+	color: #ec4646;
+}
