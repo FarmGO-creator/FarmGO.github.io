@@ -1,0 +1,205 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1024px) {
+	.blac-bar {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	}
+	.tabs__nav {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		font-size: 15px;
+	}
+	.Section h2 {
+		font-size: 30px;
+	}
+	.Section p {
+		font-size: 20px;
+		width: 100%;
+	}
+	.news-img {
+		display: none;
+	}
+	.news-bloc-sec {
+		width: 100%;
+	}
+	.contentWarning p {
+		font-size: 16px;
+	}
+	.swiper-content3 {
+		width: 200px;
+		height: 200px;
+	}
+	.blocLink {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		width: 300px;
+	}
+	.contentLink {
+		margin: 40px 0;
+		border-bottom: 1px solid #333;
+		border-top: 1px solid #333;
+	}
+	.contentCard {
+		width: 200px;
+	}
+}
+
+@media (max-width: 667px) {
+	.tabs__nav {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		    -ms-flex-flow: column-reverse;
+		        flex-flow: column-reverse;
+	}
+	.news-bloc h1 {
+		font-size: 40px;
+	}
+	.news-bloc button {
+		left: 0;
+	}
+	.breadcrumb li {
+		font-size: 10px;
+	}
+	.breadcrumb {
+		opacity: 0;
+	}
+	.breadcrumb.active {
+		opacity: 1;
+		-webkit-transition: 1s;
+		-o-transition: 1s;
+		transition: 1s;
+	}
+
+	.open {
+		opacity: 1;
+		-webkit-transition: 1s;
+		-o-transition: 1s;
+		transition: 1s;
+	}
+	.Section p {
+		font-size: 15px;
+	}
+	.contentNews {
+		padding: 20px;
+		font-size: 10px;
+	}
+	.contentNews h2 {
+		line-height: 30px;
+		margin-top: 0;
+	}
+	.Section3 p {
+		font-size: 15px;
+	}
+	.swiper-content2 {
+		background-size: 100%;
+		height: 200px;
+	}
+	.contentWarning p {
+		font-size: 13px;
+	}
+	.contentWarning p:nth-child(2) {
+		padding-top: 50px;
+	}
+	.icon2 {
+		background-color: #ddd;
+		height: 100%;
+		border-radius: 10px;
+	}
+	.contentPrice table {
+		width: 100%;
+		font-size: 13px;
+	}
+	.contentPrice h2 {
+		font-size: 15px;
+	}
+	.Section7 h2 {
+		font-size: 20px;
+	}
+	.swiper-content3 {
+		width: 100%;
+	}
+	.contentForm p {
+		font-size: 15px;
+	}
+	.contentForm textarea {
+		font-size: 13px;
+	}
+	.formImg {
+		display: none;
+	}
+	.blac-bar {
+		display: block;
+	}
+	.contentCard {
+		display: none;
+	}
+}
+
+@media (max-width: 1024px) {
+	.open2 {
+		position: relative;
+		background-image: url('IMG/menu.png');
+		background-repeat: no-repeat;
+		background-position-y: 20px;
+		background-size: 40px;
+		width: 40px;
+		height: 100px;
+	    -webkit-transition: 0.5s;
+	    -o-transition: 0.5s;
+	    transition: 0.5s;
+	    left: 10px;
+	    bottom: 10px;
+	}
+	.open2.active {
+		position: relative;
+		background-image: url('IMG/close.png');
+		background-repeat: no-repeat;
+		background-position-y: 20px;
+		background-size: 40px;
+		width: 40px;
+		height: 100px;
+	    -webkit-transition: 0.5s;
+	    -o-transition: 0.5s;
+	    transition: 0.5s;
+	    left: 10px;
+	    bottom: 10px;
+	    z-index: 3;
+	}
+	.toggleMenu {
+		display: none;
+	}
+	.toggleMenu.active {
+		display: block;
+		background-color: #333;
+		width: 100%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		color: #fff;
+	}
+}
+
+@media (max-width: 667px) {
+	.open2 {
+		left: 0;
+		top: 15px;
+	}
+	.toggleMenu {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		height: 400px;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		    -ms-flex-flow: column-reverse;
+		        flex-flow: column-reverse;
+	}
+}
